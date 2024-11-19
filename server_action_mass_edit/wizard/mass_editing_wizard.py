@@ -211,6 +211,9 @@ class MassEditingWizard(models.TransientModel):
         server_action = self.env["ir.actions.server"].sudo().browse(server_action_id)
         if not server_action:
             return super().get_view(view_id, view_type, **options)
+        # Clean form_view_ref to avoid use that instead of this model view
+        if self.env.context.get("form_view_ref"):
+            self = self.with_context(form_view_ref=None)
         result = super().get_view(view_id, view_type, **options)
         arch = etree.fromstring(result["arch"])
         main_xml_group = arch.find('.//group[@name="group_field_list"]')
