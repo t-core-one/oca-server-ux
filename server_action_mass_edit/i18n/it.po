@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-22 00:55+0000\n"
-"PO-Revision-Date: 2023-12-28 15:22+0000\n"
+"PO-Revision-Date: 2024-11-20 13:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: server_action_mass_edit
 #: model_terms:ir.ui.view,arch_db:server_action_mass_edit.view_server_action_form
@@ -113,6 +113,9 @@ msgid ""
 "\n"
 "%(ue)s"
 msgstr ""
+"Fallita l'eleborazione di %(model_name)s  \"%(name)s\" [id: %(id)s]:\n"
+"\n"
+"%(ue)s"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__field_id
@@ -276,6 +279,12 @@ msgid ""
 "  With this option, the error message will be more specific to facillitate "
 "the undertanding of the error."
 msgstr ""
+"Questa opzione scriverà i record uno per uno, invece che tutti in una volta."
+"\n"
+"Questo è utile quando si modificano molti record e uno dei record genera un "
+"errore.\n"
+"Con questa opzione, il messaggio di errore sarà più specifico per facilitare "
+"la comprensione dell'errore."
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,help:server_action_mass_edit.field_ir_actions_server__state
@@ -317,7 +326,7 @@ msgstr "Procedura guidata per le modifiche massive"
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_mass_editing_wizard__write_record_by_record
 msgid "Write Record By Record"
-msgstr ""
+msgstr "Scrivi record per record"
 
 #. module: server_action_mass_edit
 #. odoo-python
