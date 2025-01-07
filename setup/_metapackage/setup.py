@@ -42,6 +42,7 @@ setuptools.setup(
         'odoo-addon-mail_suggested_recipient_unchecked>=16.0dev,<16.1dev',
         'odoo-addon-misc_settings>=16.0dev,<16.1dev',
         'odoo-addon-multi_step_wizard>=16.0dev,<16.1dev',
+        'odoo-addon-sequence_check_digit>=16.0dev,<16.1dev',
         'odoo-addon-sequence_reset_period>=16.0dev,<16.1dev',
         'odoo-addon-server_action_mass_edit>=16.0dev,<16.1dev',
         'odoo-addon-template_content_swapper>=16.0dev,<16.1dev',
