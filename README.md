@@ -26,7 +26,7 @@ addon | version | maintainers | summary
 [base_tier_validation](base_tier_validation/) | 18.0.1.0.1 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Implement a validation process based on tiers.
 [date_range](date_range/) | 18.0.1.0.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Manage all kind of date range
 [developer_menu](developer_menu/) | 18.0.1.0.0 | [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Menu Shortcut for developer usage
-[sequence_check_digit](sequence_check_digit/) | 18.0.1.0.0 |  | Adds a check digit on sequences
+[sequence_check_digit](sequence_check_digit/) | 18.0.1.0.1 |  | Adds a check digit on sequences
 [server_action_mass_edit](server_action_mass_edit/) | 18.0.1.0.0 |  | Mass Editing
 
 [//]: # (end addons)
