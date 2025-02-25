@@ -33,6 +33,7 @@ setuptools.setup(
         'odoo-addon-base_tier_validation_server_action>=16.0dev,<16.1dev',
         'odoo-addon-base_tier_validation_waiting>=16.0dev,<16.1dev',
         'odoo-addon-base_user_locale>=16.0dev,<16.1dev',
+        'odoo-addon-confirmation_wizard>=16.0dev,<16.1dev',
         'odoo-addon-date_range>=16.0dev,<16.1dev',
         'odoo-addon-date_range_account>=16.0dev,<16.1dev',
         'odoo-addon-developer_menu>=16.0dev,<16.1dev',

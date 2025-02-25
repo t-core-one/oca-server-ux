@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [base_tier_validation_server_action](base_tier_validation_server_action/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add option to call server action when a tier is validated
 [base_tier_validation_waiting](base_tier_validation_waiting/) | 16.0.1.0.0 |  | Base Tier Validation Extension to add waiting status
 [base_user_locale](base_user_locale/) | 16.0.1.1.0 |  | User Locale Settings
+[confirmation_wizard](confirmation_wizard/) | 16.0.1.0.0 |  | This module adds a confirmation wizard that can be called with code. It does nothing by itself.
 [date_range](date_range/) | 16.0.1.0.9 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Manage all kind of date range
 [date_range_account](date_range_account/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add Date Range menu entry in Invoicing app
 [developer_menu](developer_menu/) | 16.0.1.0.0 | [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Menu Shortcut for developer usage
