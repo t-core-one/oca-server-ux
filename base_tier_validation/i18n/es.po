@@ -32,7 +32,8 @@ msgstr "<i class=\"fa fa-info-circle\"/> Este registro necesita ser validado."
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
 msgid "<i class=\"fa fa-thumbs-down\"/> Operation has been <b>rejected</b>."
-msgstr "<i class=\"fa fa-thumbs-down\"/> La operación ha sido <b>rechazada</b>."
+msgstr ""
+"<i class=\"fa fa-thumbs-down\"/> La operación ha sido <b>rechazada</b>."
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -46,9 +47,8 @@ msgstr "<span class=\"oe_edit_only\">Nombre</span>"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
-msgid "<span>Bypassed, if previous tier was validated by same reviewer</span>"
+msgid "<span>Bypass, if previous tier was validated by same reviewer</span>"
 msgstr ""
-"<span>Omitido, si el nivel anterior fue validado por el mismo revisor</span>"
 
 #. module: base_tier_validation
 #. odoo-python
@@ -950,6 +950,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "e.g. Tier Validation for..."
 msgstr "ej. Validación de Nivel por..."
+
+#~ msgid ""
+#~ "<span>Bypassed, if previous tier was validated by same reviewer</span>"
+#~ msgstr ""
+#~ "<span>Omitido, si el nivel anterior fue validado por el mismo revisor</"
+#~ "span>"
 
 #~ msgid ""
 #~ "<i class=\"fa fa-info-circle\"/>\n"
